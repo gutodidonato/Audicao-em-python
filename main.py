@@ -1,7 +1,4 @@
-
-
-
-
+import time
 
 for i in range(1):
     audicao = {}
@@ -21,3 +18,4 @@ for i in range(1):
             pessoa_vencedora = pessoa
             
     print(f"O vencedor é {pessoa_vencedora} com uma aposta de ${maior_valor}")
+    time.sleep(3)
